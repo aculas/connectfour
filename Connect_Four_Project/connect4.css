@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+body {
+  display: block;
+  margin: 8px;
+  background-color: lightcyan;
+}
+
+#board {
+  overflow: hidden;
+  margin: auto;
+}
+
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+}
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+
+.piece.p1 {
+  background-color: red;
+}
+
+.piece.p2 {
+  background-color: blue;
+}
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
+
+#column-top td:hover {
+  background-color: gold;
+}
